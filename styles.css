@@ -4,6 +4,10 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+hr {
+    margin: 2rem 0rem ;
+}
+
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -13,3 +17,21 @@ body {
     max-width: 600px;
     margin: auto;
 } 
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: green;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.link-secondary {
+    background-color: white;
+    color: green;
+    border-radius: 0.5rem;
+    border: 1px solid green;
+}
